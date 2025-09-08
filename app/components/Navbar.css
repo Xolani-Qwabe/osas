@@ -1,0 +1,18 @@
+:root {
+  --white: #ffffff;
+  --black: #0c0d08;
+  --primary-color:#434eee;
+  --light-bg:#f3f6f4;
+  --secondary-color:#6a65fc;
+  --success-color:#2CC28D;
+  --warning-color:#ec4155;
+}
+
+.nav-link:hover{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.nav-link::selection{
+    color: var(--success-color);
+}
